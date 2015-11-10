@@ -1,6 +1,6 @@
 # Bootstrap-UI/datetime-picker
 
-AngularJs directive to use a date and/or time picker as a dropdown from an input. 
+AngularJs directive to use a date and/or time picker as a dropdown from an input.
 
 [Demo](http://plnkr.co/edit/S8UqwvXNGmDcPXV7a0N3)
 
@@ -11,13 +11,13 @@ To use the directive you must have the following angular-ui bootstrap directives
 
 You should already have the ui.bootstrap dependancy included in your app.js file like below, You then need to add ui.bootstrap.datetimepicker, as so
 ```
-angular.module('app', ['ui.bootstrap', 'ui.bootstrap.datetimepicker']);
+angular.module('app', ['ui.bootstrap', 'ui.bootstrap.datetimepicker2']);
 ```
 Download the source from dist/datetime-picker.min.js file and include it in your project.
 
 Or use Bower (thank you krico for setup)
 ```
-bower install --save bootstrap-ui-datetime-picker
+bower install --save bootstrap-ui-datetime-picker2
 ```
 and link with `bower_components/bootstrap-ui-datetime-picker/dist/datetime-picker.min.js`
 
@@ -37,7 +37,7 @@ You have the following properties available to use with the directive.  All are 
 * dateDisabled
 * datepickerOptions (object)
 * timepickerOptions (object)
- 
+
 ##### isOpen
 Whether the popup/dropdown is visible or not. Defaults to false
 ##### closeOnDateSelection
